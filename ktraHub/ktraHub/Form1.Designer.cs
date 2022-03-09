@@ -30,8 +30,8 @@ namespace ktraHub
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.txtUserName = new System.Windows.Forms.TextBox();
-            this.txtPassWord = new System.Windows.Forms.TextBox();
+            this.textboxusername = new System.Windows.Forms.TextBox();
+            this.textboxmatkhau = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.btnLogin = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -39,55 +39,61 @@ namespace ktraHub
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(159, 119);
+            this.label1.Location = new System.Drawing.Point(106, 76);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(113, 25);
+            this.label1.Size = new System.Drawing.Size(75, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "UserName";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // txtUserName
+            // textboxusername
             // 
-            this.txtUserName.Location = new System.Drawing.Point(404, 119);
-            this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(187, 31);
-            this.txtUserName.TabIndex = 1;
+            this.textboxusername.Location = new System.Drawing.Point(269, 76);
+            this.textboxusername.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textboxusername.Name = "textboxusername";
+            this.textboxusername.Size = new System.Drawing.Size(126, 22);
+            this.textboxusername.TabIndex = 1;
             // 
-            // txtPassWord
+            // textboxmatkhau
             // 
-            this.txtPassWord.Location = new System.Drawing.Point(404, 206);
-            this.txtPassWord.Name = "txtPassWord";
-            this.txtPassWord.Size = new System.Drawing.Size(187, 31);
-            this.txtPassWord.TabIndex = 3;
+            this.textboxmatkhau.Location = new System.Drawing.Point(269, 132);
+            this.textboxmatkhau.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textboxmatkhau.Name = "textboxmatkhau";
+            this.textboxmatkhau.Size = new System.Drawing.Size(126, 22);
+            this.textboxmatkhau.TabIndex = 3;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(159, 206);
+            this.label2.Location = new System.Drawing.Point(106, 132);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(106, 25);
+            this.label2.Size = new System.Drawing.Size(69, 17);
             this.label2.TabIndex = 2;
             this.label2.Text = "Password";
             // 
             // btnLogin
             // 
-            this.btnLogin.Location = new System.Drawing.Point(404, 295);
+            this.btnLogin.Location = new System.Drawing.Point(269, 189);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(101, 45);
+            this.btnLogin.Size = new System.Drawing.Size(67, 29);
             this.btnLogin.TabIndex = 4;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(533, 288);
             this.Controls.Add(this.btnLogin);
-            this.Controls.Add(this.txtPassWord);
+            this.Controls.Add(this.textboxmatkhau);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.txtUserName);
+            this.Controls.Add(this.textboxusername);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -98,8 +104,8 @@ namespace ktraHub
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtUserName;
-        private System.Windows.Forms.TextBox txtPassWord;
+        private System.Windows.Forms.TextBox textboxusername;
+        private System.Windows.Forms.TextBox textboxmatkhau;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnLogin;
     }
