@@ -21,5 +21,15 @@ namespace ktraHub
         {
 
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            if (textboxusername.Text == "admin" && textboxmatkhau.Text == "admin")
+            {
+                Form2 loginForm = new Form2();
+               
+                loginForm.ShowDialog();
+            }
+        }
     }
 }
