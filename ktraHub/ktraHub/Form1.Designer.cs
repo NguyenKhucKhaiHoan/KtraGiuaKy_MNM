@@ -73,9 +73,9 @@ namespace ktraHub
             // 
             this.btnLogin.Location = new System.Drawing.Point(404, 295);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(101, 45);
+            this.btnLogin.Size = new System.Drawing.Size(157, 45);
             this.btnLogin.TabIndex = 4;
-            this.btnLogin.Text = "Login";
+            this.btnLogin.Text = "đăng nhập";
             this.btnLogin.UseVisualStyleBackColor = true;
             // 
             // Form1
