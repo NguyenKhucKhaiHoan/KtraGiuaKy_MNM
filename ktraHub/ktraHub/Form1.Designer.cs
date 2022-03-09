@@ -42,9 +42,9 @@ namespace ktraHub
             this.label1.Location = new System.Drawing.Point(106, 76);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(75, 17);
+            this.label1.Size = new System.Drawing.Size(100, 17);
             this.label1.TabIndex = 0;
-            this.label1.Text = "UserName";
+            this.label1.Text = "tên đăng nhập";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // textboxusername
@@ -71,16 +71,16 @@ namespace ktraHub
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(69, 17);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Password";
+            this.label2.Text = "mật khẩu";
             // 
             // btnLogin
             // 
             this.btnLogin.Location = new System.Drawing.Point(269, 189);
             this.btnLogin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(67, 29);
+            this.btnLogin.Size = new System.Drawing.Size(157, 45);
             this.btnLogin.TabIndex = 4;
-            this.btnLogin.Text = "Login";
+            this.btnLogin.Text = "đăng nhập";
             this.btnLogin.UseVisualStyleBackColor = true;
             // 
             // Form1
